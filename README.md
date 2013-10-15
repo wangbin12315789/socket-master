@@ -6,5 +6,5 @@ socket-master
 *****
 **客户端使用java编写  在android手机上运行  如图：**
 
-![client](C:\Documents and Settings\Administrator\桌面\client.png)
+![client](/images/client.png)
 *****

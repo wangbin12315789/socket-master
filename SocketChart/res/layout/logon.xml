@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/background">
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="60dip"
+		android:background="@drawable/logon" />
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:paddingLeft="10dp" android:paddingRight="10dp">
+
+		<View android:layout_width="fill_parent" android:layout_height="20dip" />
+
+		<TextView android:id="@+id/feedback_title" android:textColor="#FFFFFF"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="用户名：" />
+		<EditText android:id="@+id/edtUserName" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+
+		<View android:layout_width="fill_parent" android:layout_height="2dip"
+			android:background="#FF909090" />
+
+		<TextView android:layout_width="fill_parent"
+			android:textColor="#FFFFFF" android:layout_height="wrap_content"
+			android:text="IP地址：" />
+		<EditText android:id="@+id/edtIp" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:digits="1234567890." 
+			android:text="192.168.1.101"/>
+
+		<View android:layout_width="fill_parent" android:layout_height="2dip"
+			android:background="#FF909090" />
+
+		<TextView android:layout_width="fill_parent"
+			android:textColor="#FFFFFF" android:layout_height="wrap_content"
+			android:text="端口号：" />
+		<EditText android:id="@+id/edtPort" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:inputType="number"
+			android:numeric="integer" android:text="1234"/>
+
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginTop="10dp">
+		</LinearLayout>
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			<View android:id="@+id/feedback_content" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:maxEms="10"
+				android:minEms="10" android:gravity="top"
+				android:layout_marginBottom="50dip" />
+			<Button android:id="@+id/btnLogon" android:layout_width="fill_parent"
+				android:layout_height="50dp" android:text="登陆" android:textSize="19dp"
+				android:layout_gravity="center_horizontal"
+				android:layout_alignParentBottom="true" />
+		</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

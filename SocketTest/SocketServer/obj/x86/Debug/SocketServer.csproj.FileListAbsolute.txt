@@ -1,0 +1,6 @@
+D:\Test\SocketTest\SocketServer\bin\Debug\SocketServer.exe
+D:\Test\SocketTest\SocketServer\bin\Debug\SocketServer.pdb
+D:\Test\SocketTest\SocketServer\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Test\SocketTest\SocketServer\obj\x86\Debug\SocketServer.exe
+D:\Test\SocketTest\SocketServer\obj\x86\Debug\SocketServer.pdb
+D:\Test\SocketTest\SocketServer\bin\Debug\SocketServer.exe.config
